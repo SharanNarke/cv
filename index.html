@@ -3,107 +3,70 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Sharan's Personal Website</title>
-</head>
-
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td> <img src="images\PIC.jpg" alt="Sharan's profile pic"></td>
-      <td>
-        <h1>Sharan Narke</h1>
-        <p><em>Senior Data Analyst at <strong><a href="https://www.delltechnologies.com/en-ie/index.htm">Dell Technologies</a></strong></em></p> <!-- Anchor linking to Dell Technolodies Website -->
-        <br>
-        <p>jsfdbkdsjfcnwdwfckjdnckdjvfbvjhfdnfc;odwwkvbd;v.djvb fvk.jdvcn d.vcvlkdv
-          dbs,cjdnsvc,,dbv,sjbc</p>
-      </td>
-    </tr>
-  </table>
-
-
-  <table border="10">
-    <tr>
-      <td>
-        <table>
-          <thead>
-            <tr>
-              <th>Skillset</th>
-              <th>Rating</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Analytical Thinking</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>BI Tools</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-      <td>
-        <table>
-          <table>
-            <thead>
-              <tr>
-                <th>Skillset</th>
-                <th>Rating</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Analytical Thinking</td>
-                <td>⭐⭐⭐⭐⭐</td>
-              </tr>
-              <tr>
-                <td>BI Tools</td>
-                <td>⭐⭐⭐⭐⭐</td>
-              </tr>
-            </tbody>
-          </table>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <title>Sharan Narke</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico"> <!-- adding favicon(icon on top of browser tab) -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet"> <!-- Adding fonts from Google font website -->
+  </head>
+  <!-- Inline & Block elements. Inline merges with the content without breaking the line like span, anchor & image tag. Block that eats up whole area & cannot have multiple elements in same Inline
+one cannot change width of inline elments but you can change width of block elements. If you want to change width the use display:inline or display:block first to have all in one line & second to help change width.
+you can also change display: inline-block. Last one is display:none which helps to get rid of that element form website -->
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud image">
+      <h1>I am Sharan!</h1>
+      <h3><p>a <span class="data">data</span> wizard</p></h3>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud image">
+      <img src="images/mountain.png" alt="mountain image">
 
 
-  <hr>
-  <h3>Schools attended</h3>
-  <p>BMEMHS, VTU, NCI</p>
-  <hr>
-  <table>
-    <thead>
-      <tr>
-        <th>Timeline</th>
-        <th>Presence</th>
-      </tr>
-    </thead>
+      <div class="middle-container">
+        <div>
+          <img  class="profile" src="C:\Users\Sharan_Narke\Documents\Web Development\CSS-My Site\images\PIC.jpg" alt="My Picture">
+          <h2>Hello.</h2>
+          <p>I am currently working in EMEA Global Production planning Team which is part of Dell's Global operations Organization based out of Limerick,Ireland</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="Flaticon" src="https://image.flaticon.com/icons/svg/204/204324.svg" alt="Digital Transformation">
+            <h3>Leading Digital Transformation Projects</h3>
+            <p>I Lead various Digital Transformation Projects for EMEA GPP at Global Level</p>
+          </div>
+          <div class="skill-row">
+            <img class="Flaticon" src="https://image.flaticon.com/icons/svg/735/735540.svg" alt="Data Analysis image">
+            <h3>Finding stories in Data</h3>
+            <p>My key strength is using various Data Analytical methods including BI Tools like Tableau & PowerBI to find stories in data.</p>
+          </div>
+          <div class="skill-row">
+            <img class="Flaticon" src="https://image.flaticon.com/icons/svg/1018/1018716.svg" alt="Web Development Image">
+            <h3>Web Development</h3>
+            <p>I am aspiring to be a Web Developer to design fluid like smooth websites.</p>
+          </div>
+          <div class="skill-row">
+            <img class="Flaticon" src="https://image.flaticon.com/icons/svg/865/865119.svg" alt="Team Work">
+            <h3>Fostering Teamwork</h3>
+            <p>I love with a diverse group of people as to inspire & get inspired.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <img class="Flaticon"src="https://media3.giphy.com/media/nmJAF1FwS292qiwiCy/giphy.gif?cid=790b76115cc6e8c64c65484f73aa0922&rid=giphy.gif" alt="contact me">
+          <h3>I'd Love to talk to you!!</h3>
+          <p>Please find the contacts details below.</p>
+          <a class="btn" href="mailto:Sharan_Narke@Dell.com">CONTACT ME</a>
+        </div>
+      </div>
 
-    <tbody>
-      <tr>
-        <td>2012 - 2016</td>
-        <td>VTU, CS & Engineering</td>
-      </tr>
-      <tr>
-        <td>2017 - 2018</td>
-        <td>National College of Ireland</td>
-      </tr>
-    </tbody>
-    <tfoot>
 
-    </tfoot>
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/sharannarke">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/narke_sharan">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© 2019 Sharan Narke.</p>
+      </div>
 
-  </table>
-  <hr>
-  <a href="hobbies.html">Places Visited</a>
-
-  <p><a Download href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Download HTML Cheat sheet</a></p>
-  <p><a href="contact.html">Contact Me😊</a> </p>
-
-  <hr>
-  <a href="test.html"> Test</a>
-</body>
-
+  </body>
 </html>
